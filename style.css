@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F4F6;
+}
+
+/* First Block - Hero Section */
+.First-block {
+    background-color: #1F2937;
+    padding: 50px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header .Left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.right-links ul li {
+    margin-left: 20px;
+}
+
+.right-links ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text {
+    color: #F9FAF8;
+    max-width: 50%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+button.small {
+    padding: 10px 20px;
+    background-color: #3882F6;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.small:hover {
+    background-color: #0066CC;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Second Block */
+.Second-block {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.Second-block .subtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.Second-block .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.Second-block .block {
+    width: 22%;
+    text-align: center;
+}
+
+.Second-block .block img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Second-block .block p {
+    font-size: 14px;
+    color: #1F2937;
+    margin-top: 10px;
+}
+
+/* Third Block - Quote */
+.Third-block {
+    background-color: #E5E7EB;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Fourth Block - Call to Action */
+.Fourth-block {
+    background-color: #3882F6;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.blue-container .action {
+    font-size: 36px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.blue-container .subtitle {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+button.Sign {
+    padding: 15px 30px;
+    background-color: #FFF;
+    color: #3882F6;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.Sign:hover {
+    background-color: #F0F0F0;
+}
+
+/* Fifth Block - Footer */
+.Fifth-block {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
+
+.Fifth-block p {
+    margin: 0;
+}
